@@ -12,29 +12,31 @@
       "generate:types": "payload generate:types"
     },
     "dependencies": {
-      "@payloadcms/db-vercel-postgres": "^3.10.0",
-      "@payloadcms/next": "^3.10.0",
-      "@payloadcms/plugin-cloud-storage": "^3.10.0",
-      "@payloadcms/richtext-lexical": "^3.10.0",
-      "@payloadcms/storage-vercel-blob": "^3.10.0",
-      "@payloadcms/ui": "^3.10.0",
-      "@vercel/blob": "^0.27.0",
-      "@vercel/postgres": "^0.10.0",
+      "@payloadcms/db-vercel-postgres": "^3.0.0",
+      "@payloadcms/next": "^3.0.0",
+      "@payloadcms/richtext-lexical": "^3.0.0",
+      "@payloadcms/storage-vercel-blob": "^3.0.0",
+      "@payloadcms/ui": "^3.0.0",
+      "@vercel/blob": "^0.23.0",
+      "@vercel/postgres": "^0.9.0",
       "cross-env": "^7.0.3",
-      "graphql": "^16.9.0",
-      "next": "15.1.2",
-      "payload": "^3.10.0",
-      "react": "^19.0.0",
-      "react-dom": "^19.0.0",
-      "sharp": "^0.33.5"
+      "graphql": "^16.8.1",
+      "next": "15.0.3",
+      "payload": "^3.0.0",
+      "react": "^19.0.0-rc.1",
+      "react-dom": "^19.0.0-rc.1",
+      "sharp": "^0.33.2"
     },
     "devDependencies": {
-      "@types/node": "^22.10.2",
-      "@types/react": "^19.0.1",
-      "@types/react-dom": "^19.0.2",
-      "eslint": "^8",
-      "eslint-config-next": "15.1.2",
-      "typescript": "^5.7.2"
+      "@types/node": "^22.5.0",
+      "@types/react": "^18.3.5",
+      "@types/react-dom": "^18.3.0",
+      "autoprefixer": "^10.4.20",
+      "eslint": "^8.57.0",
+      "eslint-config-next": "15.0.3",
+      "postcss": "^8.4.47",
+      "tailwindcss": "^3.4.11",
+      "typescript": "^5.6.2"
     },
     "engines": {
       "node": ">=18.0.0"
