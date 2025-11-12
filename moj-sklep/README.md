@@ -28,7 +28,7 @@ Gotowy szablon sklepu e-commerce zbudowany z **Payload CMS v3**, **Next.js 15**,
    ```
 3. Stwórz repo na GitHub i push:
    ```bash
-   git remote add origin https://github.com/TWOJ-USERNAME/payload-store.git
+   git remote add origin https://github.com/MarinexIT/payload-store.git
    git branch -M main
    git push -u origin main
    ```
@@ -120,7 +120,7 @@ Jeśli chcesz testować lokalnie:
 
 ```bash
 # Sklonuj repo
-git clone https://github.com/TWOJ-USERNAME/payload-store.git
+git clone https://github.com/MarinexIT/payload-store.git
 cd payload-store
 
 # Zainstaluj zależności
